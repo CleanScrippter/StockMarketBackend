@@ -5,7 +5,7 @@ import { router } from './routes';
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:8080', 'http://127.0.0.1:8080','https://www.stockmarketbackend-production-9457.up.railway.app'],
+  origin: ['http://localhost:8080', 'http://127.0.0.1:8080','https://market-pulse-83.vercel.app'],
 }));
 app.use(express.json());
 
